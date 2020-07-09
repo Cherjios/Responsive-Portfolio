@@ -18,11 +18,11 @@
   <body>
     <!-- Navigation bar starts here -->
     <div class="container-fluid bg-warning">
-      <div class="row mb-2">
-        <div class="col-md-4 bg-primary text-white mb-2 mt-2 rounded-right"><h1>Sergio Lopez</h1></div>
-        <div class="col-4"></div>
-        <div class="col-md-4 bg-primary mb-4 rounded-pill text-center mt-2">
-          <a class="text-white" href="index.html"><h7>About &emsp;|</h7></a>
+      <div class="row mb-2 fixed-bottom">
+        <div class="col-md-3 bg-primary text-white mb-2 mt-2 rounded-right"><h1>Sergio Lopez</h1></div>
+        <div class="col-6"></div>
+        <div class="col-md-3 bg-primary mb-4 rounded-pill text-center mt-2">
+          <a class="text-white" href="#Aboutme"><h7>About &emsp;|</h7></a>
           <a class="text-white" href="#portfolio"><h7>Portfolio &emsp;|</h7></a>
           <!-- <a class="text-white" href="contact.html"><h7>Contact &emsp;|</h7></a> -->
           <a class="text-white" href="SergioLopez_Resume.pdf" target="_blank"><h7>Resume &emsp;|</h7></a>
@@ -33,7 +33,8 @@
     <!-- content begins here -->
     <article>
       <!-- Section About me starts here -->
-      <div class="container-fluid">
+      <br><br>
+      <div class="container-fluid" id="Aboutme">
         <div class="p-3 mb-2 bg-dark text-white ">
           <div class="container">
             <div  class="container p-3 mb-2 bg-light text-dark">
@@ -46,15 +47,15 @@
               <div class="row">
                 <div class="col">
                   <img src="images/IMG_1034.jpeg" class="img-thumbnail rounded float-left m-2" width="200"  alt="about-me">
-                  <p class="font-weight-light">Hi! My Name is Sergio, a software engineer base in the bay area. I decided to get into the tech word because I love to spend time with computers and one day, I decided to learn more about how to create software and applications on internet.</p>
+                  <p class="font-weight-light">Hi! My Name is <span class="text-success font-weight-bold">Sergio Lopez </span>, a software engineer base in the bay area. I decided to get into the tech word because I love to spend time with computers and one day, I decided to learn more about how to create software and applications on internet.</p>
                   <p class="font-weight-light">I am currently studying the web developer boot camp at Berkeley Extension, I'll finish it at the end of August 2020.</p>
                   <p class="font-weight-light">I finished the fundamental year at Holberton. I was trained in software engineering fundamentals, including low-level programming, DevOps, and high-level modern languages.</p>
                   <p class="font-weight-light">I am current looking for an entry-level position where I can find opportunities to expand my knowledge and work on challenging projects.</p> 
-                </div>
+                <!-- </div> -->
               </div>
             </div>
             <!-- icons bar begins here  -->
-            <div class="col-md-12 bg-primary mb-4 rounded-pill text-center m-2">
+            <div class="col-md-12 bg-warning mb-4 rounded-pill text-center m-2 fixed-top">
               <a class="m-4" href="https://github.com/Cherjios" target="_blank"><ion-icon name="logo-github" size="large"></ion-icon></a>
               <a class="m-4" href="https://www.linkedin.com/in/sergio-lopez-81790579/" target="_blank"><ion-icon name="logo-linkedin" size="large"></ion-icon></a>
               <a class="m-4" href="https://twitter.com/SergioL08946225" target="_blank"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
@@ -81,7 +82,7 @@
                   <img src="images/property-mover.png" class="card-img-top" alt="property mover">
                   <div class="card-body">
                     <h5 class="card-title">Property-Mover</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Web application where the user is able to find a place to live within a certain price range, compare any distance and commute time.</p>
                     <a href="https://cherjios.github.io/Property-Mover/" target="_blank" class="btn btn-primary">Deployed version</a>
                     <a class="m-4" href="https://github.com/Cherjios/Property-Mover" target="_blank"><ion-icon name="logo-github" size="large"></ion-icon></a>
                   </div>
@@ -91,7 +92,7 @@
                   <img src="images/weather-dashboard.png" class="card-img-top" alt="weather dashboard">
                   <div class="card-body">
                     <h5 class="card-title">Weather-Dashboard</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Weather Dashboard that retrieves data form another application's API.</p>
                     <a href="https://cherjios.github.io/06-Server-Side-APIs-Weather-Dashboard/" target="_blank" class="btn btn-primary">Deployed version</a>
                     <a class="m-4" href="https://github.com/Cherjios/06-Server-Side-APIs-Weather-Dashboard" target="_blank"><ion-icon name="logo-github" size="large"></ion-icon></a>
                   </div>
@@ -103,7 +104,7 @@
                   <img src="images/password-generator.png" class="card-img-top" alt="password generator">
                   <div class="card-body">
                     <h5 class="card-title">Password-Generator</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Web application that generates a costume password, where you can choose special characters, numeric, uppercase or lowercase..</p>
                     <a href="https://cherjios.github.io/Password-Generator/" target="_blank" class="btn btn-primary">Deployed version</a>
                     <a class="m-4" href="https://github.com/Cherjios/Password-Generator" target="_blank"><ion-icon name="logo-github" size="large"></ion-icon></a>
                   </div>
@@ -113,7 +114,7 @@
                   <img src="images/hbnb.png" class="card-img-top" alt="AirBnb clone">
                   <div class="card-body">
                     <h5 class="card-title">AirBnB clone</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Project attempts to clone the the AirBnB application and website, including the database, storage, RESTful API, Web Framework, and Front End.</p>
                     <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                     <a class="m-4" href="https://github.com/Cherjios/AirBnB_clone_v4" target="_blank"><ion-icon name="logo-github" size="large"></ion-icon></a>
                   </div>
@@ -131,7 +132,7 @@
       <footer>
         <div class="row p-3 mb-2 bg-dark text-white">
           <div class="col text-center">
-            <p> &copy; Copyright</p>
+            <p> &copy; Copyright Sergio Lopez</p>
           </div>
         </div>
         <!-- Footing ends here  -->
